@@ -1,0 +1,36 @@
+/** buttons **/
+.btn {
+  text-decoration: none;
+  font-family: 'Titillium Web';
+  padding: 2px 25px 2px 25px;
+  font-size: 12pt;
+  font-weight: 600;
+  border: none;
+  border-radius: 2px;
+}
+// primary-green
+.btn-primary {
+  background: #00f9b6;
+  color: #2c3737;
+  transition: 0.3s;
+  &:hover {
+    background: #00f9b7b9;
+  }
+}
+// secondary-pink
+.btn-secondary {
+  margin: 0.5rem 0;
+  background: #d10061;
+  color: white;
+  transition: 0.3s;
+  &:hover {
+    background: #00f9b7b9;
+  }
+}
+.btn-block {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

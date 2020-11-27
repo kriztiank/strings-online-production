@@ -1,0 +1,95 @@
+/*****
+Fonts
+*****/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+/************
+Global Styles
+*************/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+* img {
+  max-width: 100%;
+  // display: block;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  background: #131313;
+  line-height: 1.5;
+  font-size: 1rem;
+  /* sticky footer */
+  position: relative;
+  min-height: 100vh;
+  /* sticky footer end*/
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-top: 0.25rem;
+  // margin-bottom: 1.25rem;
+  // display: block;
+  // margin-block-start: 0px;
+  // margin-block-end: 0px;
+  // margin-inline-start: 0px;
+  // margin-inline-end: 0px;
+  // NO GLOBAL MARGINS!!! margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}

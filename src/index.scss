@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+// Global styles+
+@import 'css/global.scss';
+// Global classes
+.spacer {
+  height: 0.2rem;
+  margin-bottom: 2.5rem;
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #00f9b6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+}
+// Global section wrapper
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1366px;
+  // padding: 1rem 0;
+}
+.section-small {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1024px;
+  // padding: 1rem 0;
+}
+.section-title {
+  text-align: left;
+  // margin-bottom: 2rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// Loading
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: hsl(205, 78%, 60%);
+  animation: spinner 0.6s linear infinite;
+}
+@import 'css/buttons.scss';
+@import 'css/product.scss';
+@import 'css/cart.scss';
+@import 'css/checkout.scss';
+@import 'css/login.scss';
+@import 'css/footer.scss';
+@import 'css/alert.scss';
+@import 'css/error.scss';

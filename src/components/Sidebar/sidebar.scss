@@ -1,0 +1,44 @@
+.Sidebar {
+  width: 100%;
+  height: fit-content;
+  details {
+    background: #0a1d1c;
+    color: #00fab4;
+  }
+  summary {
+    cursor: pointer;
+    outline: none;
+    &::-webkit-details-marker {
+      display: none;
+      // color: transparent;
+    }
+  }
+  .produkter {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid hsla(162, 76%, 32%, 0.3);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom: none;
+  }
+
+  .brands {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid hsla(162, 76%, 32%, 0.3);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top: none;
+  }
+  a {
+    all: unset;
+    cursor: pointer;
+    color: #00f9b6;
+    p {
+      padding-left: 0.8rem;
+    }
+  }
+}

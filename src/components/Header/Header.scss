@@ -1,0 +1,110 @@
+.Header {
+  width: 98vw;
+  margin: 0 auto;
+  .headerGrid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    max-width: 1366px;
+    width: 100%;
+
+    .nav {
+      position: relative;
+      .navImage {
+        width: 100%;
+        float: right;
+        padding-right: 10px;
+      }
+
+      .links {
+        z-index: 1;
+        position: absolute;
+        top: 35%;
+        bottom: 25%;
+        right: 3%;
+
+        span {
+          padding-left: 30px;
+          padding-right: 20px;
+          a {
+            color: white;
+            text-decoration: none;
+            font-weight: 200;
+            &:hover {
+              color: rgba(255, 255, 255, 0.616);
+            }
+          }
+        }
+      }
+    }
+    .search {
+      color: white;
+      padding-left: 10px;
+      text-align: right;
+      span {
+        color: #afafaf;
+        font-size: 9pt;
+        padding: 10px;
+      }
+      .contact {
+        display: inline-block;
+        .mail {
+          max-height: 15px;
+        }
+        .phone {
+          max-height: 22px;
+          padding-left: 8px;
+        }
+      }
+      .cart {
+        max-height: 20px;
+        padding-left: 10px;
+      }
+      button {
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .breadcrumbs {
+    border-top: 1.5px solid rgba(255, 255, 255, 0.178);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.178);
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 1366px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    img {
+      max-width: 18px;
+      margin: 0 8px 0 0;
+      margin-left: 15px;
+    }
+    a {
+      color: #00f9b6;
+      text-decoration: none;
+      font-weight: 200;
+      font-size: 11pt;
+      &:hover {
+        color: white;
+      }
+    }
+    .historylink {
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      margin: 0;
+      font-size: 13pt;
+      color: #00f9b6;
+      &:hover {
+        color: #00f9b7a4;
+      }
+    }
+  }
+}

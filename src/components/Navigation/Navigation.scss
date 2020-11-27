@@ -1,0 +1,90 @@
+// react-burger-menu
+// https://www.npmjs.com/package/react-burger-menu
+.mobileMenu {
+  display: none;
+  #page-wrap {
+    text-align: center;
+    overflow: auto;
+    top: 45%;
+    position: relative;
+  }
+
+  .sidebar {
+    overflow: hidden;
+    ul {
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+    &:focus {
+      outline: none;
+    }
+    .sideLink {
+      display: block;
+      text-decoration: none;
+      margin-bottom: 10px;
+      color: #00f9b6;
+      transition: color 0.2s;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+    button {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #ffffff;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    button {
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: rgba(19, 19, 19, 0.966);
+    padding: 2.5em 0.2em;
+    font-size: 1.15em;
+    span {
+      font-size: 12pt;
+    }
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}

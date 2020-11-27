@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1366px) {
+  .Header {
+    .headerGrid {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      margin: auto;
+      padding: 10px;
+      padding-bottom: 30px;
+      margin-top: 30px;
+      max-width: 1366px;
+      width: 100%;
+      box-sizing: border-box;
+      .nav {
+        button {
+          font-size: 12pt;
+        }
+        .links {
+          position: absolute;
+          left: 0;
+          span {
+            padding-left: 15px;
+          }
+        }
+        .navImage {
+          display: none;
+        }
+      }
+      .search {
+        text-align: right;
+        padding-right: 20px;
+        button {
+          width: 40%;
+          margin: auto;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .Header {
+    .headerGrid {
+      grid-template-columns: 1fr;
+      margin-top: 24px;
+      .search {
+        text-align: right;
+        margin-right: 70px;
+        button {
+          display: none;
+        }
+        .contact {
+          display: none;
+        }
+        .cart {
+          max-height: 70px;
+          text-align: left;
+        }
+      }
+      .links {
+        display: none;
+      }
+    }
+  }
+  .mobileMenu {
+    display: block;
+  }
+}

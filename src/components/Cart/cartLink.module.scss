@@ -1,0 +1,21 @@
+/*********
+Cart Link
+*********/
+.cart_link_container {
+  position: relative;
+  margin-right: 10px;
+}
+.cart_link_container a {
+  font-weight: bolder;
+}
+.cart_link_total {
+  display: block;
+  position: absolute;
+  background: #d10061;
+  top: -25px;
+  right: -20px;
+  padding: 0rem 0.3rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: white;
+}
