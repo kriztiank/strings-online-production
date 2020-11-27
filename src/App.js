@@ -32,7 +32,7 @@ import PrivateRoute from './components/PrivateRoute';
 import './css/media-queries.scss';
 // apollo client
 const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
+  uri: 'https://strings-online-api.herokuapp.com',
   cache: new InMemoryCache(),
 });
 
