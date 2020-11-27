@@ -32,7 +32,7 @@ import PrivateRoute from './components/PrivateRoute';
 import './css/media-queries.scss';
 // apollo client
 const client = new ApolloClient({
-  uri: 'https://strings-online-api.herokuapp.com',
+  uri: 'https://strings-online.netlify.app',
   cache: new InMemoryCache(),
 });
 
