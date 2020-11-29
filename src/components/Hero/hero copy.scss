@@ -10,7 +10,6 @@
       grid-template-columns: 1fr;
     }
   }
-
   .heroGrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -31,21 +30,31 @@
       background-color: #2c3737;
     }
   }
+
   .greyBorders {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
   }
+
   .marginTopAndBottom {
     margin-top: 2rem;
     margin-bottom: 2.2rem;
   }
-  .paddingTopAndBottom {
+  .fontSize3 {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    @media screen and (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
-  h2 {
-    font-size: 2.2rem;
-    // margin: 0;
+  .fontSize2 {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
   }
   .fontWeightLight {
     font-weight: 300;
@@ -59,13 +68,14 @@
   .colorgrey {
     color: #afafaf;
   }
-
-  @media screen and (max-width: 500px) {
-    h2, h3 {
-      font-size: 1rem;
-    }
-  }
 }
+
+
+// @media screen and (max-width: 500px) {
+//   .fontSize3 {
+//     font-size: 2rem;
+//   }
+// }
 
 // @media screen and (max-width: 850px) {
 //   .section {

@@ -14,7 +14,7 @@ export default props => {
             <Link className="sideLink" to="/">Forside</Link>
             <Link className="sideLink" to="/terms">Salgs og handelsbetingelser</Link>
             <Link className="sideLink" to="/login">Login</Link>
-            <Link className="sideLink" to="/search">Søg</Link>
+            <Link className="sideLink" to="/products">Søg</Link>
             <br/>
             <p><img src={Mail} className="Mail" alt="mail-icon"/> <span>sales@stringsonline.com</span></p>
             <p><img src={Phone} className="Phone" alt="phone-icon"/> <span>+45 98 12 22 68</span></p>
