@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import HeroHeader from '../../assets/hero.jpg';
 import './hero.scss';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -26,7 +27,9 @@ function Hero() {
                   SE DEN NYE GENERATION HALVACOUSTISKE
                 </h3>
               </div>
-              <p>LÆS MERE</p>
+              <Link to='/westernguitar'>
+                <button className='btn btn-primary'>LÆS MERE</button>
+              </Link>
             </div>
           </div>
         </div>
