@@ -2,7 +2,6 @@ import React from 'react';
 import { gql, useQuery } from '@apollo/client';
 import { UserContext } from '../../context/user';
 import StarRating from '../../components/Ratings/StarRating';
-// import './orders.scss';
 
 // Define the query
 const PRODUCTS = gql`
