@@ -13,8 +13,8 @@ All Products
   .section-center-cards {
     color: white;
     margin: 0 auto;
-    max-width: 1140px;
     width: 90vw;
+    max-width: 1140px;
     display: grid;
     gap: 2rem 2rem;
     justify-items: center;
@@ -123,17 +123,16 @@ Single Product
 Pagination Buttons
 ******************/
 .pagination-buttons {
-  width: 85vw;
-  max-width: 1170px;
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-.pagination-buttons {
+  // margin: 0 auto;
+  // width: 90vw;
+  // max-width: 1140px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  // margin-left: 10rem;
 }
 .page-btn,
 .prev-page-btn,
@@ -175,7 +174,6 @@ Filters Section
 .filters-section {
   color: white;
   width: 85vw;
-
   max-width: 1024px;
   margin-bottom: -4rem;
 }
@@ -240,4 +238,13 @@ select option {
   // margin-bottom: 3.5rem;
   font-size: 1.1rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .filters-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -2rem;
+    max-width: 200px;
+  }
 }

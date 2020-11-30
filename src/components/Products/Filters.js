@@ -9,7 +9,6 @@ export default function Filters() {
   } = useContext(ProductContext);
   return (
     <section className='section filters-section'>
-
       <form className='filters-form'>
         <div>
           {/* search input */}
@@ -57,7 +56,7 @@ export default function Filters() {
 
         {/* end of price */}
       </form>
-      <h6>Produkter på lager: {sorted.flat().length} </h6>
+      <h6>På lager: +{sorted.flat().length} </h6>
       <hr />
     </section>
   );

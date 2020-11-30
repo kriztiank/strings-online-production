@@ -4,11 +4,11 @@ import './Terms.scss';
 
 function Terms() {
   return (
-    <section className='section single-product'>
+    <section className='Terms section single-product'>
       {/* griditem 1 */}
       <Sidebar />
+      {/* griditem 2 */}
       <article>
-        <br />
         <h2>Betaling</h2>
         <p>
           FIRMANAVN modtager betaling med Dankort/VISA-Dankort, VISA, VISA

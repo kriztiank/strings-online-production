@@ -1,6 +1,5 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import { UserContext } from '../../context/user';
 import { Link } from 'react-router-dom'
 import LoginLink from '../LoginLink';
 import Mail from '../../assets/mail-icon.png';
@@ -8,7 +7,6 @@ import Phone from '../../assets/phone-icon.png';
 import './Navigation.scss'
 
 export default props => {
-  const { user } = React.useContext(UserContext);
   return (
     <Menu {...props}>
       <nav className="sidebar">

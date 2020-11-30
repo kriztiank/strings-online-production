@@ -1,5 +1,14 @@
 .Terms {
   article {
-    color: white;
+    color: grey;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .Terms {
+    article {
+      margin-top: 1rem;
+      color: grey;
+    }
   }
 }
