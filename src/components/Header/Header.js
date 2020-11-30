@@ -1,7 +1,6 @@
 import React from 'react';
 import { UserContext } from '../../context/user';
 import { Link } from 'react-router-dom';
-import './Header.scss';
 import Headerbg from '../../assets/header-bg.png';
 import Mail from '../../assets/mail-icon.png';
 import Phone from '../../assets/phone-icon.png';
@@ -9,6 +8,7 @@ import Cart from '../../assets/cart-icon.png';
 import Home from '../../assets/home-icon.png';
 import LoginLink from '../LoginLink';
 import CartLink from '../../components/Cart/CartLink';
+import './Header.scss';
 
 function Header() {
   const { user } = React.useContext(UserContext);
