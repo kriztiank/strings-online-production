@@ -56,7 +56,7 @@ export default function Filters() {
 
         {/* end of price */}
       </form>
-      <h6>På lager: +{sorted.flat().length} </h6>
+      <h6>Produkter: {sorted.flat().length} </h6>
       <hr />
     </section>
   );
