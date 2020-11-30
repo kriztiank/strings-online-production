@@ -8,6 +8,7 @@ function Terms() {
       {/* griditem 1 */}
       <Sidebar />
       <article>
+        <br />
         <h2>Betaling</h2>
         <p>
           FIRMANAVN modtager betaling med Dankort/VISA-Dankort, VISA, VISA

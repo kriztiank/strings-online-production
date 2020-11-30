@@ -14,7 +14,7 @@ export default function Cart() {
   }
 
   return (
-    <section className="cart-items section">
+    <section className="cart-items section-smaller">
       <h2>kurv</h2>
       <div className="underline"></div>
       {cart.map(item => {

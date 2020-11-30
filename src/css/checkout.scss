@@ -2,13 +2,12 @@
 Checkout
 ********/
 .checkout-form {
-  color:white;
-  // background: white;
+  color: white;
   padding: 1.25rem 1rem;
   text-transform: capitalize;
 }
 .checkout-form h3 span {
-  color:white;
+  color: white;
 }
 .stripe-info {
   font-size: 90%;
@@ -21,11 +20,12 @@ Checkout
 .card-element {
   color: white;
   margin-top: 1rem;
-  background: #0a1c1c;
+  // background: #0a1c1c;
+  background: white;
   border: 0.5px solid#24413d;
   padding: 0.5rem;
   font-size: 4rem;
-  border-radius: 0.25rem;;
+  border-radius: 0.25rem;
 }
 .checkout-form .form-empty {
   margin-top: 1rem;

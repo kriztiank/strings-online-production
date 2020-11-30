@@ -6,8 +6,6 @@ Cart
   text-transform: capitalize;
 }
 .cart-items {
-  margin: 0 auto;
-  max-width: 940px;
   color: white;
 }
 .cart-items h2 {
@@ -22,10 +20,11 @@ Cart
   margin: 1.5rem 0;
 }
 .cart-item img {
+  background: white;
+  padding: 1rem;
   width: 15rem;
 }
 .cart-item h4 {
-  font-size: 1.25rem;
   margin-bottom: 0;
 }
 .cart-item h5 {

@@ -35,7 +35,7 @@ export default function ProductDetails() {
 
         {/* griditem 2 */}
         <article>
-          <h2>{title}</h2>
+          <h4>{title}</h4>
           <p>{description_long}</p>
         </article>
 

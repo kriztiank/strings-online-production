@@ -52,7 +52,7 @@ function ProductItem({ product }) {
       <img src={image.name} alt={title} className='single-product-image' />
       {/* griditem 2 */}
       <article>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <p>{description_long}</p>
       </article>
       {/* griditem 3 */}

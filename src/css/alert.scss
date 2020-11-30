@@ -9,10 +9,10 @@ Alert
   display: none;
   z-index: 10;
   background:  #00f9b6;
+  color:white;
   width: 24rem;
   padding: 2.5rem 1.5rem;
   text-align: center;
-  color:#0a1d1c;
   font-size: 1.2rem;
   font-weight: bold;
   transition: all 0.3s linear;
@@ -34,7 +34,7 @@ Alert
   color: white;
 }
 .alert-close {
-  color: #0a1d1c;
+  color: white;
   font-size: 1.5rem;
   background: transparent;
   border: none;
@@ -44,4 +44,11 @@ Alert
   right: 7px;
   cursor: pointer;
   line-height: 0;
+}
+@media screen and (max-width: 850px) {
+  .alert-container {
+    width: 16rem;
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+  }
 }
