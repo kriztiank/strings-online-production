@@ -16,9 +16,9 @@
     grid-template-columns: 2fr 1fr;
     margin-bottom: 1rem;
 
-    @media screen and (max-width: 1080px) {
-      grid-template-columns: 1fr;
-    }
+    // @media screen and (max-width: 1080px) {
+    //   grid-template-columns: 1fr;
+    // }
 
     .heroImg {
       width: 100%;

@@ -1,8 +1,8 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import HeroHeader from '../../assets/hero.jpg';
-import './hero.scss';
 import { Link } from 'react-router-dom';
+import './hero.scss';
 
 function Hero() {
   return (
