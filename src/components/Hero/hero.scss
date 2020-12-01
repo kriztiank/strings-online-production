@@ -1,22 +1,23 @@
+.outherGrid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 1080px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .Hero {
   color: white;
-  .outherGrid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1rem;
-    margin-bottom: 1rem;
-
-    @media screen and (max-width: 1080px) {
-      grid-template-columns: 1fr;
-    }
-  }
 
   .heroGrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-bottom: 1rem;
 
-    // @media screen and (max-width: 1080px) {
+    // @media screen and (max-width: 850px) {
     //   grid-template-columns: 1fr;
     // }
 
